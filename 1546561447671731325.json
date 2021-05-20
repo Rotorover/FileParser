@@ -1,0 +1,43 @@
+{
+  "name": "1546561447671731325",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeMetadata",
+    "progressPercent": 100,
+    "startTime": "2020-12-01T15:47:35.466021Z",
+    "lastUpdateTime": "2020-12-01T15:48:00.371344Z",
+    "uri": "gs://gbtestbucket123/0530FW110320new.mp3"
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.speech.v1p1beta1.LongRunningRecognizeResponse",
+    "results": [
+      {
+        "alternatives": [
+          {
+            "transcript": "President Trump Pizza campaign swing States an explanation",
+            "confidence": 0.85595304
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "Fulton coronavirus an all-time high in the US and hospitalizations have risen in 40s",
+            "confidence": 0.8609896
+          }
+        ],
+        "languageCode": "en-us"
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": " Hurricane Rita has turned into one of the Nicaragua today 720 countries",
+            "confidence": 0.8637724
+          }
+        ],
+        "languageCode": "en-us"
+      }
+    ]
+  }
+}
